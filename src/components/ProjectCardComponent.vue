@@ -1,5 +1,6 @@
-<template lang="">
+<template lang="html">
     <div>
+        <h1>hello ash</h1>
         
     </div>
 </template>
