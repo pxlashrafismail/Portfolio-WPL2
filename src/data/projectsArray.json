@@ -1,58 +1,58 @@
 [
     {
         "name": "Travel",
-        "url": "",
+        "url": "@/assets/images/travel.png",
         "id": "web-travel",
         "sort": "web"
     }, {
         "name": "Jump",
-        "url": "",
+        "url": "@/assets/images/jump.png",
         "id": "web-jump",
         "sort": "web"
     }, {
         "name": "Restaurant",
-        "url": "",
+        "url": "@/assets/images/restaurant.png",
         "id": "web-restaurant",
         "sort": "web"
     }, {
         "name": "garage",
-        "url": "",
+        "url": "@/assets/images/garage.png",
         "id": "web-garage",
         "sort": "web"
     }, {
         "name": "mobile-shop",
-        "url": "",
+        "url": "@/assets/images/mobile-shop.png",
         "id": "web-mobile-shop",
         "sort": "web"
     },
     {
         "name": "city",
-        "url": "",
+        "url": "@/assets/images/city.png",
         "id": "design-city",
         "sort": "design"
     }, {
         "name": "halloween",
-        "url": "",
+        "url": "@/assets/images/halloween.png",
         "id": "design-halloween",
         "sort": "design"
     }, {
         "name": "mobile1",
-        "url": "",
+        "url": "@/assets/images/mobile1.png",
         "id": "design-mobile1",
         "sort": "design"
     }, {
         "name": "mobile2",
-        "url": "",
+        "url": "@/assets/images/mobile2.png",
         "id": "design-mobile2",
         "sort": "design"
     }, {
         "name": "adventure",
-        "url": "",
+        "url": "@/assets/images/adventure.png",
         "id": "design-adventure",
         "sort": "design"
     }, {
         "name": "sunrise",
-        "url": "",
+        "url": "@/assets/images/sunrise.png",
         "id": "design-sunrise",
         "sort": "design"
     }
