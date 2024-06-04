@@ -1,0 +1,28 @@
+@use 'base' as *;
+
+.home-container{
+    @include flexLayout(row, center, center);
+    margin-top: 7%;
+    &-image{
+        width: 40%;
+        &-img{
+            margin:0 25% ;
+            width: 50%;
+            border-radius: 1rem;
+        }
+    }
+    &-content{
+        width: 40%;
+        &-title{
+            font-size: 4rem;
+            color: $color-light;
+            margin: 1rem;
+        }
+        &-description{
+            width: 75%;
+            font-size: 2rem;
+            color: $color-light;
+            margin: 1rem;
+        }
+    }
+}

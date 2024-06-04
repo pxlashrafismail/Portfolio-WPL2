@@ -1,0 +1,59 @@
+
+
+$color-primary: #ebe0e0;
+$color-secondary: #540ef8;
+$color-side: rgb(99, 90, 90);
+$color-light: #f0f8ff;
+$color-black: #000;
+$color-white: #fff;
+
+$font-jacquard-h1: "Jacquard 12 Charted", system-ui;
+$font-jersey-h2: "Jersey 15", sans-serif;
+$font-ubuntu-p: "Ubuntu", sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+body{
+    &::-webkit-scrollbar{
+       display: none;
+    }
+    background-color: $color-primary;
+    font-family: $font-ubuntu-p;
+}
+@mixin flexLayout($direction,$justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin links{
+    text-decoration: none;
+    margin: .5rem;
+}
+@mixin hovery{
+    color: $color-secondary;
+    transition: all .5s ease;
+    background-color: $color-light;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+@mixin active{
+    color: $color-secondary;
+    transition: all .5s ease;
+    background-color: $color-black;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+%fullSpace {
+    width: 100%;
+    height: 100%;
+}

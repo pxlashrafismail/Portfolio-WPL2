@@ -1,0 +1,207 @@
+[
+    {
+        "id":1,
+        "title":"Reflecion",
+        "name": "End reflection",
+        "ul":[
+            {
+                "liHeader": "Reflectie op de X-factor (em)passie:",
+                "liContent": "Mijn werkzaamheden als coder binnen WPL2 toonden mijn passie voor webontwikkeling en mijn toewijding om een functioneel en gebruiksvriendelijk product te creëren.<br> Het ontwikkelen van een volledig werkende website voor huizen met filters was een uitdagende taak die ik met veel enthousiasme heb uitgevoerd.<br>"
+            },
+            {
+                "liHeader": "Ondernemend & Innovatief:",
+                "liContent": "Ik heb initiatief getoond door een voorbeeldwebsite te ontwikkelen, wat niet alleen het werk van de designers vergemakkelijkte, maar ook de kwaliteit van ons project verbeterde.<br> Deze innovatieve aanpak hielp ons om sneller te testen en feedback te verwerken.<br>"
+            },
+            {
+                "liHeader": "(Internationaal) Samen(net)werken:",
+                "liContent": "Ondanks de uitdagingen die we tegenkwamen, zoals de slechte feedback na de eerste en tweede sprint, bleef ons team goed communiceren en samenwerken.<br> Mijn rol als coder vereiste constante afstemming met de designers en andere teamleden om ervoor te zorgen dat de website aan alle eisen voldeed.<br>"
+            },
+            {
+                "liHeader": "(Multi)disciplinair:",
+                "liContent": "Het project vereiste samenwerking tussen verschillende disciplines, waaronder design en codering.<br> Door nauw samen te werken met de designers, kon ik de technische aspecten van hun visies realiseren, wat leidde tot een beter eindproduct.<br>"
+            },
+            {
+                "liHeader": "Reflectie op mijn persoonlijke softskills",
+                "liContent":  "Gekozen reflectiemethode: STARR-methode"
+            },
+            {
+                "liHeader": "Situatie:",
+                "liContent": "Na de tweede sprint kregen we feedback dat we het projectconcept volledig verkeerd hadden begrepen.<br>"            
+            },
+            {
+                "liHeader": "Taak:",
+                "liContent": "Mijn taak was om de website te herstructureren en aan te passen aan het nieuwe concept van het project, dat gericht was op het promoten van de app in plaats van het tonen van huizen.<br>"
+            },
+            {
+                "liHeader": "Actie:",
+                "liContent": "Ik zocht actief naar nieuwe ideeën, deelde deze met mijn team en werkte samen met de designers om een nieuw ontwerp te maken.<br> Daarnaast bleef ik nauw contact houden met de docenten om ervoor te zorgen dat onze aanpak in lijn was met de projectdoelen.<br>"
+            },
+            {
+                "liHeader": "Resultaat:",
+                "liContent": "In de derde sprint kregen we positieve feedback over het design en in de vierde sprint werd ons project volledig goedgekeurd.<br> Ons harde werk werd gewaardeerd door de docenten, en we waren trots op het eindresultaat.<br>"
+            },
+            {
+                "liHeader": "Reflectie:",
+                "liContent":  "Door deze ervaring heb ik mijn communicatievaardigheden en vermogen om constructieve feedback te verwerken verbeterd.<br> Het accepteren van kritiek en snel aanpassen aan nieuwe richtingen zijn vaardigheden die ik sterk heb ontwikkeld tijdens WPL2.<br>"
+            },
+            {
+                "liHeader": "Algemene reflectie over het verloop van WPL2",
+                "liContent": ""
+            },
+            {
+                "liHeader": "Positieve realisaties:",
+                "liContent":  "Ik ben trots op de volledige herstructurering van de website en het implementeren van de nieuwe ideeën die we hebben verzameld na de slechte feedback.<br> Dit zorgde voor een succesvolle afronding van het project.<br>"
+            },
+            {
+                "liHeader": "Moeilijke punten:",
+                "liContent":    "Het moeilijkste moment was het ontvangen van de slechte feedback na de tweede sprint.<br> Het was een grote uitdaging om de negatieve feedback te verwerken en het project volledig opnieuw te beginnen.<br>"
+            },
+            {
+                "liHeader": "Samenwerking:",
+                "liContent":   "De samenwerking binnen ons team verliep uitzonderlijk goed.<br> We hadden open en transparante communicatie en werkten effectief samen zonder conflicten.<br> Een verbeterpunt zou kunnen zijn om nog regelmatiger feedbacksessies te houden om ervoor te zorgen dat iedereen altijd op dezelfde lijn zit.<br>"
+            },
+            {
+                "liHeader": "Beeld van de job:",
+                "liContent":    "Het WPL2-project kwam goed overeen met mijn beeld van een toekomstige baan in webontwikkeling.<br> De noodzaak om te kunnen omgaan met feedback, snel aan te passen en effectief samen te werken met verschillende disciplines zijn allemaal belangrijke aspecten die ik in een toekomstige functie verwacht.<br>"
+            }
+
+        ]
+    },
+    {
+        "id": 2,
+        "title":"Soft Skills",
+        "name": "My soft skills",
+        "ul": [
+            {
+                "liHeader": "Communication",
+                "liContent": "I am a good communicator.<br> I can explain things clearly and concisely.<br> I am also a good listener.<br> I can listen to others and understand their point of view.<br>"
+            },
+            {
+                "liHeader": "Teamwork",
+                "liContent": "I am a good team player.<br> I can work well with others and I am always willing to help out when needed.<br>"
+            },
+            {
+                "liHeader": "Problem Solving",
+                "liContent": "I am a good problem solver.<br> I can think creatively and come up with solutions to complex problems.<br>"
+            },
+            {
+                "liHeader": "Time Management",
+                "liContent": "I am good at managing my time.<br> I can prioritize tasks and meet deadlines.<br>"
+            },
+            {
+                "liHeader": "Adaptability",
+                "liContent": "I am adaptable.<br> I can work well in a fast-paced environment and I am always willing to learn new things.<br>"
+            },
+            {
+                "liHeader": "Leadership",
+                "liContent": "I am a good leader.<br> I can motivate and inspire others to achieve their goals.<br>"
+            },
+            {
+                "liHeader": "Creativity",
+                "liContent": "I am creative.<br> I can think outside the box and come up with innovative ideas.<br>"
+            },
+            {
+                "liHeader": "Critical Thinking",
+                "liContent": "I am a critical thinker.<br> I can analyze information and make informed decisions.<br>"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title":"Hard Skills",
+        "name": "My hard skills",
+        "ul": [
+            {
+                "liHeader": "HTML",
+                "liContent": "I am proficient in HTML.<br> I can create web pages using HTML.<br>"
+            },
+            {
+                "liHeader": "CSS",
+                "liContent": "I am proficient in CSS.<br> I can style web pages using CSS.<br>"
+            },
+            {
+                "liHeader": "JavaScript",
+                "liContent": "I am proficient in JavaScript.<br> I can create interactive web pages using JavaScript.<br>"
+            },
+            {
+                "liHeader": "Node.<br>js",
+                "liContent": "I am proficient in Node.<br>js.<br> I can create server-side applications using Node.<br>js.<br>"
+            },
+            {
+                "liHeader": "MongoDB",
+                "liContent": "I am proficient in MongoDB.<br> I can create and manage databases using MongoDB.<br>"
+            },
+            {
+                "liHeader": "Git",
+                "liContent": "I am proficient in Git.<br> I can manage version control using Git.<br>"
+            },
+            {
+                "liHeader": "vue.<br>js",
+                "liContent": "I am proficient in vue.<br>js.<br> I can create dynamic web applications using vue.<br>js.<br>"
+            },
+            {
+                "liHeader": "MySQL",
+                "liContent": "I am proficient in MySQL.<br> I can create and manage databases using MySQL.<br>"
+            }
+
+        ]
+    },
+    {
+        "id": 4,
+        "title":"Experience",
+        "name": "My work and education",
+        "ul": [
+            {
+                "liHeader": "2019 - PresentLifeguard - Hasselt Swimming Pool.<br> Location: Belgium.<br>",
+                "liContent": "Ensured the safety of pool visitors.<br> Responded promptly to emergencies and enforced pool safety rules.<br> Maintained a vigilant watch over the pool area.<br>"
+            },
+            {
+                "liHeader": "2016 - 2018 Language Student and Flexible Worker.<br> Location: Belgium.<br> ",
+                "liContent": "tudied Dutch intensively to achieve proficiency in the language.<br> Location: Belgium.<br> Engaged in flexible work, contributing to various industries, including factory work and employment at McDonald's.<br> Developed adaptability and multitasking skills by managing both academic studies and work responsibilities simultaneously.<br> Gained practical experience in a dynamic work environment, fostering a strong work ethic and teamwork capabilities.<br> >Demonstrated the ability to balance educational pursuits with real-world work experiences.<br>"
+            },
+            {
+                "liHeader": "2014 - 2016 Dive Master freelancer.<br> Location: Egypt.<br>",
+                "liContent": "Worked as a Dive Master at Manta Safari Dive Center, Sharm El Sheikh, a prominent diving destination.<br> Led and guided diving excursions, ensuring the safety and enjoyment of guests.<br>"
+            },
+            {
+                "liHeader": "2011 - 2014 Entertainment Manager - Shores Aloha Hotels.<br> Location: Egypt.<br>",
+                "liContent": "Managed and coordinated entertainment activities for hotel guests.<br> Organized events and ensured a lively and enjoyable atmosphere.<br> Handled guest relations and resolved issues to enhance their experience.<br>"
+            },
+            {
+                "liHeader": "2010- 2011 Sales - Manta Safari Excursion Office.<br>  Location: Egypt.<br>",
+                "liContent": "Worked as a salesperson, promoting and selling excursion packages.<br> Assisted customers in choosing suitable excursions.<br> Provided information about tour packages and ensured customer satisfaction.<br>"
+            },
+            {
+                "liHeader": "2007 - 2010 Legal Intern",
+                "liContent": "Completed a legal internship as part of the requirements for obtaining a Master's degree in Law from the Faculty of Law.<br> Assisted in legal research, document preparation, and case analysis.<br> Gained practical experience in various areas of law under the guidance of experienced attorneys.<br>"
+            },
+            {
+                "liHeader": "2007 Year of Graduation: Master of Laws - Faculty of Law Egypt ",
+                "liContent": "Successfully completed a Master's degree in Law from the Faculty of Law.<br> Engaged in in-depth legal research, academic studies, and practical applications of legal principles.<br>"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title":"Myself",
+        "name": "Something about me",
+        "ul": [
+            {
+                "liHeader": "Diving",
+                "liContent": "Diving is not just a hobby for me; it's my ultimate joy.<br> Beneath the waves, I lose myself in a world where time seems to stand still.<br><br> The underwater realm is where I find profound peace, surrounded by the serenity of the deep.<br> It's more than an activity, it's a sanctuary where I reconnect with myself and the wonders of nature, making every dive a transformative experience.<br>"
+            },
+            {
+                "liHeader": "Gym",
+                "liContent": "The gym is my haven for physical and mental well-being.<br> Fitness, to me, is not just a routine, it's a celebration of what the human body can achieve.<br> Music is my companion, sometimes a gentle melody to clear my head, and other times a lively tune to elevate my spirits.<br>"
+            },
+            {
+                "liHeader": "Other Interests",
+                "liContent": "In addition to diving, I have a deep passion for dancing, finding rhythm in every beat, and expressing myself through movement.<br> Running and swimming are not just exercises but ways for me to feel the pulse of life coursing through my veins.<br> Traveling is a constant source of inspiration, broadening my perspective and enriching my soul with diverse experiences.<br>"
+            },
+            {
+                "liHeader": "My view",
+                "liContent": " Life, in my view, is too short to not pursue what brings genuine happiness.<br> Embracing every moment, I strive to create a life filled with joy, adventure, and a deep appreciation for the beauty that surrounds us.<br>"
+            }
+        ]
+    }
+]
