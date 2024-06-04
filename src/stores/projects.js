@@ -13,11 +13,16 @@ export const useProjectStore = defineStore('projects',  {
         },
         getProjectById: (state) => (id) => {
             return state.projects.find(project => project.id === id);
+        },
+        getFilteredProjects(state) {
+            return selectedSort => {
+                return state.projects.filter(project => project.sort === selectedSort);
+            }
         }
     },
     actions: {
         fetchProjects() {
-            this.projects = data.projects;
+            this.projects = data;
         },
         addProject(project) {
             this.projects.push(project);

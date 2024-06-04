@@ -1,6 +1,12 @@
 <template lang="">
-    <div>
-        
+    <div class="card-container">
+        <div class="card-container-image">
+            <img :src="project.url" alt="project.name" class="card-container-image-img">
+        </div>
+        <div class="card-container-body">
+           <h1>{{ projects.name }}</h1>
+            <p>{{ projects.description }}</p>
+        </div>
     </div>
 </template>
 <script>
@@ -9,8 +15,7 @@ export default {
     name: 'ProjectsView',
     data() {
         return {
-            projects: useProjectStore(),
-            details:"More details"
+            store: useProjectStore(),
         }
     },
     props:{
