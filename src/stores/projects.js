@@ -4,35 +4,32 @@ import data from '@/data/projectsArray.json';
 export const useProjectStore = defineStore('projects',  {
 
     state: () => ({
-        getProjects: null,
-        filterProjects: null,
+        projects: null,
+        filter: 'all',
     }),
     getters: {
-        getProjects(state) {
+        getFilters: (state) => {
+            // Get distinct list of all titles in the subjects array
+            let titles = [...new Set(state.projects.map(option => option.sortTitle))]
+            titles.sort();
+            titles.unshift('all');
+            return titles;
+        },
+        getAllProjects: (state) => {
             return state.projects;
         },
-        getProjectById: (state) => (id) => {
-            return state.projects.find(project => project.id === id);
-        },
-        getFilteredProjects: (state)=> {
-            return (optionSelect)=> state.filterProjects.find((project)=> 
-            project.sort === optionSelect);
+        getFilteredProjects: (state) =>{
+            if(state.filter === 'all')
+                return state.projects;
+            else
+                return state.projects.filter(project => project.sortTitle === state.filter);
         }
+        
     },
     actions: {
         fetchProjects() {
-            this.projects = data.projects;
+            this.projects = data;
         },
-        addProject(project) {
-            this.projects.push(project);
-        },
-        updateProject(project) {
-            const index = this.projects.findIndex(p => p.id === project.id);
-            this.projects[index] = project;
-        },
-        deleteProject(id) {
-            this.projects = this.projects.filter(project => project.id !== id);
-        }
+      
     }
-
 });
