@@ -5,21 +5,19 @@
             <select class="bout-container-header-select" 
             name="about-me-select" 
             id="about-me"
-            v-model="selectedOption"
-            @change="applyFilters">
+            v-model="store.filter">
                 <option 
-                v-for="option in options" 
-                :key="option.value"
-                :value="value">
-                    {{option.text}}
+                v-for="filter in store.getFilters" 
+                :key="filter"
+                :value="filter">
+                    {{ filter }}
                 </option>
             </select>
         </div>
         <div class="about-container-body">
             <div class="about-container-body-content" 
-            v-for="aboutMe in filteredAboutMe" 
-            :key="aboutMe.id">
-            <AboutCardComponent :aboutMeOption="aboutMe" />
+            v-for="subject in store.getFilteredSubjects" :key="subject.id">
+                <AboutCardComponent :aboutMeOption="subject" />
             </div>
         </div> 
     </div>
@@ -36,31 +34,31 @@ import AboutCardComponent from '@/components/AboutCardComponent.vue'
         data() {
             return {
                 aboutLabel: 'About Me',
-                options: [
-                    {value: 'all', text: 'All'},
-                    {value: 'reflecion', text: 'Reflecion'},
-                    {value: 'soft-skills', text: 'Soft Skills'},
-                    {value: 'hard-skills', text: 'Hard Skills'},
-                    {value: 'experience', text: 'Experience'},
-                    {value: 'myself', text: 'Myself'},
-                ],
+                // options: [
+                //     {value: 'all', text: 'All'},
+                //     {value: 'reflecion', text: 'Reflecion'},
+                //     {value: 'soft-skills', text: 'Soft Skills'},
+                //     {value: 'hard-skills', text: 'Hard Skills'},
+                //     {value: 'experience', text: 'Experience'},
+                //     {value: 'myself', text: 'Myself'},
+                // ],
                 store : useAboutMeStore(),
 
             }
         },
-        computed:{
-            filteredAboutMe() {
-                let aboutMeItem = this.store.getFilteredAboutMe();
-                return aboutMeItem;
+        // computed:{
+        //     filteredAboutMe() {
+        //         let aboutMeItem = this.store.getFilteredAboutMe();
+        //         return aboutMeItem;
                 
-            }
-        },
-        methods: {
-            applyFilters() {
-                this.store.SetFilterAboutMe(this.selectedOption);
-                console.log("testing the filter");
-            }
-        },
+        //     }
+        // },
+        // methods: {
+        //     applyFilters() {
+        //         this.store.SetFilterAboutMe(this.selectedOption);
+        //         console.log("testing the filter");
+        //     }
+        // },
         created() {
            this.store.fetchAboutMe()
         },

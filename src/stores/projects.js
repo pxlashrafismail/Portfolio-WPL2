@@ -17,7 +17,7 @@ export const useProjectStore = defineStore('projects',  {
         getFilteredProjects: (state)=> {
             return (optionSelect)=> state.filterProjects.find((project)=> 
             project.sort === optionSelect);
-
+        }
     },
     actions: {
         fetchProjects() {

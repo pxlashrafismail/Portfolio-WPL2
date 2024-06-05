@@ -3,30 +3,34 @@ import data from "@/data/aboutMe.json";
 
 export const useAboutMeStore = defineStore("aboutMe", {
     state: () => ({
-        aboutMe: null,
-        filteredAboutMe:"all",
+        subjects: null,
+        filter: 'all',
     }),
     getters: {
-        getAboutMe(state) {
-        return state.aboutMe;
+        getFilters: (state) => {
+            // Get distinct list of all titles in the subjects array
+            let titles = [...new Set(state.subjects.map(option => option.title))]
+            titles.sort();
+            titles.unshift('all');
+            return titles;
         },
-        getFilteredAboutMe: (state) =>{
-            return ()=>{
-                let aboutMe = state.aboutMe;
-                if(state.filteredAboutMe!=="all"){
-                    aboutMe = aboutMe.filter(option => option.title == state.filteredAboutMe);
-                }
-                return aboutMe;
-            }
+        getAllSubjects: (state) => {
+            return state.subjects;
+        },
+        getFilteredSubjects: (state) =>{
+            if(state.filter === 'all')
+                return state.subjects;
+            else
+                return state.subjects.filter(subject => subject.title === state.filter);
         }
     },
       
     actions: {
         fetchAboutMe() {
-        this.aboutMe = data;
+            this.subjects = data;
         },
-        SetFilterAboutMe(name){
-            this.filteredAboutMe = name;
-        }
+        // SetFilterAboutMe(name){
+        //     this.filteredAboutMe = name;
+        // }
     },
 });
