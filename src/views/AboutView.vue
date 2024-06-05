@@ -34,31 +34,10 @@ import AboutCardComponent from '@/components/AboutCardComponent.vue'
         data() {
             return {
                 aboutLabel: 'About Me',
-                // options: [
-                //     {value: 'all', text: 'All'},
-                //     {value: 'reflecion', text: 'Reflecion'},
-                //     {value: 'soft-skills', text: 'Soft Skills'},
-                //     {value: 'hard-skills', text: 'Hard Skills'},
-                //     {value: 'experience', text: 'Experience'},
-                //     {value: 'myself', text: 'Myself'},
-                // ],
                 store : useAboutMeStore(),
 
             }
         },
-        // computed:{
-        //     filteredAboutMe() {
-        //         let aboutMeItem = this.store.getFilteredAboutMe();
-        //         return aboutMeItem;
-                
-        //     }
-        // },
-        // methods: {
-        //     applyFilters() {
-        //         this.store.SetFilterAboutMe(this.selectedOption);
-        //         console.log("testing the filter");
-        //     }
-        // },
         created() {
            this.store.fetchAboutMe()
         },
