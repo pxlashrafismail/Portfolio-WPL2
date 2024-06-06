@@ -15,14 +15,36 @@
         width: 40%;
         &-title{
             font-size: 4rem;
-            color: $color-light;
             margin: 1rem;
         }
         &-description{
             width: 75%;
             font-size: 2rem;
-            color: $color-light;
             margin: 1rem;
         }
     }
+}
+
+@media screen and (max-width: 992px) {
+    .home-container{
+        flex-direction: column;
+        &-image{
+            width: 80%;
+            &-img{
+                margin: 0;
+                width: 100%;
+            }
+        }
+        &-content{
+            width: 80%;
+            &-title{
+                font-size: 3rem;
+            }
+            &-description{
+                width: 100%;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
 }

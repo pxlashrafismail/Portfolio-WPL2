@@ -1,0 +1,49 @@
+@use 'base' as *;
+
+.card-project-container{
+    background-color: $color-light;
+    width: 80%;
+    margin: 1rem auto;
+    @include flexLayout(row, center, center);
+    border-radius: 1rem;
+
+    &-content{
+        width: 55%;
+        padding: 2rem;
+        background-color:$color-primary;
+        margin-top: 2rem ;
+        border-radius: 1rem;
+        &-h1{
+            font-size: 4rem;
+            margin: 1rem 0;
+
+        }
+        &-p{
+            font-size: 1.5rem;
+        }
+    }
+    &-image{
+        width: 40%;
+        padding: 2rem;
+        &-img{
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .card-project-container{
+        @include flexLayout(column, center, center);
+        &-content{
+            width: 80%;
+            &-h1{
+                font-size: 3rem;
+            }
+        }
+        &-image{
+            width: 90%;
+        }
+    }
+}

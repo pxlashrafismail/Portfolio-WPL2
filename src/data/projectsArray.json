@@ -1,68 +1,68 @@
 [
     {
         "name": "Travel",
-        "url":"@/assets/images/travel.png",
+        "url":"../../assets/images/travel.png",
         "id": "web-travel",
         "sortTitle": "web",
         "description":"Discover the world with  Travel Agency Name, your online gateway to customized travel experiences. From exotic getaways to adventurous treks, we offer tailored packages for every traveler. Enjoy seamless booking, 24/7 support, and exclusive deals. Explore global destinations with us and create unforgettable memories. Your adventure begins here!"
     }, {
        "name": "Jump",
-        "url": "@/assets/images/jump.png",
+        "url": "../../assets/images/jump.png",
         "id": "web-jump",
         "sortTitle": "web",
         "description":"Step into comfort and performance with our top-of-the-line running shoes. Designed for all levels, our collection offers superior cushioning, support, and durability. Experience the perfect blend of style and functionality. Elevate your run with our cutting-edge footwear technology. Run faster, farther, and stronger with us!"
     }, {
         "name": "Restaurant",
-        "url": "@/assets/images/restaurant.png",
+        "url": "../../assets/images/restaurant.png",
         "id": "web-restaurant",
         "sortTitle": "web",
-        "description":"Welcome to Restaurant ! Our website is currently under construction, but we are excited to share the complete experience with you soon. Stay tuned for updates and the full reveal of our menu, chef's specials, and dining experience. Thank you for your patience. Check back soon for the finished site!"
+        "description":"Welcome to Restaurant! Our website is currently under construction, but we are excited to share the complete experience with you soon. Stay tuned for updates and the full reveal of our menu, chef's specials, and dining experience. Thank you for your patience. Check back soon for the finished site!"
     }, {
         "name": "Garage",
-        "url": "@/assets/images/garage.png",
+        "url": "../../assets/images/garage.png",
         "id": "web-garage",
         "sortTitle": "web",
         "description":"Welcome to Garage! Our website is currently under construction, but we are excited to share the complete experience with you soon. Stay tuned for updates and the full reveal of our services, expert team, and special offers. Thank you for your patience. Check back soon for the finished site!"
     }, {
         "name": "Mobile-shop",
-        "url": "@/assets/images/mobile-shop.png",
+        "url": "../../assets/images/mobile-shop.png",
         "id": "web-mobile-shop",
         "sortTitle": "web",
         "description":"Welcome to our mobile shop, your one-stop destination for the latest smartphones. Explore a wide range of top brands with cutting-edge features and sleek designs. Enjoy competitive prices and exclusive deals. Experience seamless shopping with fast delivery and excellent customer service. Upgrade your mobile experience with us!"
     },
     {
         "name": "City",
-        "url": "@/assets/images/city.png",
+        "url": "../../assets/images/city.png",
         "id": "design-city",
         "sortTitle": "design",
         "description":"Discover the essence of urban exploration with our City Tour logo. Featuring a modern, vibrant design, it encapsulates the spirit of adventure and discovery. The logo integrates iconic city landmarks, highlighting the charm and uniqueness of each destination. Perfect for all your city tour branding needs, it promises to attract and inspire travelers. Explore the city with our distinctive and memorable logo!"
     }, {
         "name": "Halloween",
-        "url": "@/assets/images/halloween.png",
+        "url": "../../assets/images/halloween.png",
         "id": "design-halloween",
         "sortTitle": "design",
         "description":"Embrace the spooky season with our Halloween logo design. Featuring eerie elements like haunted houses, bats, and pumpkins, it captures the essence of Halloween. The dark, bold colors and creepy typography add to the haunting atmosphere. Perfect for all Halloween-themed events and promotions, this logo will grab attention and set the perfect spooky tone. Get ready to thrill and chill with our standout Halloween logo design!"
     }, {
         "name": "Mobile1",
-        "url": "@/assets/images/mobile1.png",
+        "url": "../../assets/images/mobile1.png",
         "id": "design-mobile1",
         "sortTitle": "design",
         "description":"Our mobile logo design encapsulates modern connectivity and sleek aesthetics. Featuring a minimalistic smartphone icon, it symbolizes cutting-edge technology and innovation. The vibrant colors and clean lines make it eye-catching and memorable. Ideal for mobile shops, tech startups, and app developers, this logo embodies the essence of mobility and progress. Elevate your brand's image with our stylish and contemporary mobile logo design."
     }, {
         "name": "Mobile2",
-        "url": "@/assets/images/mobile2.png",
+        "url": "../../assets/images/mobile2.png",
         "id": "design-mobile2",
         "sortTitle": "design",
         "description":"Our mobile logo design exudes simplicity and sophistication, featuring a sleek smartphone silhouette. The design uses a bold, dynamic color palette to convey energy and modernity. The minimalistic approach ensures versatility, making it perfect for various applications, from mobile shops to tech services. This logo represents innovation and seamless connectivity. Stand out in the tech world with a logo that defines clarity and forward-thinking."
     }, {
         "name": "Adventure",
-        "url": "@/assets/images/adventure.png",
+        "url": "../../assets/images/adventure.png",
         "id": "design-adventure",
         "sortTitle": "design",
         "description":"Our Adventure in the Desert logo captures the essence of excitement and exploration. Featuring a dynamic dune landscape with a setting sun, it highlights the thrill of desert escapades. The warm color palette of oranges and yellows evokes the heat and beauty of the desert. Silhouettes of camels and adventurers add a touch of authenticity and adventure. This logo is perfect for travel agencies and tour operators offering unforgettable desert experiences."
     }, {
         "name": "Sunrise",
-        "url": "@/assets/images/sunrise.png",
+        "url": "../../assets/images/sunrise.png",
         "id": "design-sunrise",
         "sortTitle": "design",
         "description":"The Sunrise logo beautifully encapsulates the hope and promise of a new day. Featuring a radiant sun rising over a horizon, it uses warm colors like oranges, pinks, and yellows to convey warmth and positivity. The elegant, sweeping lines of the sun's rays symbolize growth and renewal. This logo is ideal for brands aiming to evoke optimism, new beginnings, and inspiration, making it perfect for wellness centers, travel agencies, and nature-oriented businesses."

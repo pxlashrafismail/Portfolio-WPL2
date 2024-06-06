@@ -1,8 +1,8 @@
 <template>
     <div class="about-container">
         <div class="about-container-header">
-            <label class="bout-container-header-lbl" for="about-me">{{aboutLabel}}</label>
-            <select class="bout-container-header-select" 
+            <label class="about-container-header-lbl" for="about-me">{{aboutLabel}}</label>
+            <select class="about-container-header-select" 
             name="about-me-select" 
             id="about-me"
             v-model="store.filter">

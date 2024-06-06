@@ -1,0 +1,25 @@
+@use 'base' as *;
+
+
+.about-container{
+    @include flexLayout(column, center, center);
+    // background-color: $color-light;
+    &-header{
+        margin: 1rem auto;
+        &-lbl{
+            font-size: 2rem;
+            padding: 1rem;
+            }
+            
+            &-select{
+            font-size: 2rem;
+            padding: 1rem;
+            border-radius: .5rem;
+        }
+
+    }
+    &-body{
+        &-content{
+        }
+    }
+}
