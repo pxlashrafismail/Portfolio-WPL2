@@ -1,0 +1,36 @@
+@use 'base' as *;
+
+.projects-container{
+    @include flexLayout(column, center, center);
+    &-header{
+        margin: 1rem;
+        font-size: 2rem;
+        &-label{
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        &-select{
+            font-size: 2rem;
+            margin: 1rem;
+            border-radius: .5rem;
+            padding: .5rem;
+        }
+    }
+    
+}
+
+
+@media  screen and (max-width: 992px){
+    .projects-container{
+        &-header{
+            font-size: 1.5rem;
+            &-label{
+                font-size: 1.5rem;
+            }
+            &-select{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
+}

@@ -1,11 +1,12 @@
 <template lang="html">
-    <div class="card-container">
-        <div class="card-container-content">
-            <h1 class="card-container-content-h1"> {{project.name}} </h1>
-            <p class="card-container-content-p"> {{project.description}} </p>
+    <div class="card-project-container">
+        <div class="card-project-container-content">
+            <h1 class="card-project-container-content-h1"> {{project.name}} </h1>
+            <p class="card-project-container-content-p"> {{project.description}} </p>
         </div>
-        <div class="card-container-image">
-                <img class="card-container-content-image-img" :src="project.url" :alt="project.name">
+        <div class="card-project-container-image">
+                <img class="card-project-container-image-img" 
+                :src="project.url" :alt="project.name">
         </div>            
     </div>
 </template>
