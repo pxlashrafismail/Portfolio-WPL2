@@ -8,7 +8,7 @@
                 <li class="card-about-container-content-ul-item"  
                 v-for="item in aboutMeOption.ul"
                 :key=item.id>
-                <h2>{{item.liHeader}}</h2>
+                <h2 v-html="item.liHeader"></h2>
                 <p v-html="item.liContent"></p>
 
                     </li>
