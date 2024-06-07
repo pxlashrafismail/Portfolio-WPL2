@@ -62,15 +62,19 @@
 
 @media screen and (max-width: 576px) {
     .contact-container {
+        width: 90%;
+        margin:10% auto;
         &-info {
-            width: 90%;
-            margin: 0 auto;
+            width: 100%;
+            margin:0 auto;
+            background-color: aquamarine;
             &-tabel {
-                width: 80%;
-                margin: 2rem auto;
+                width: 100%;
+                margin:  0;
                 td {
                     border: 1px solid black;
                     padding: .5rem;
+                font-size: .8rem;
                 }
                 tr {
                     :nth-child(odd) {
@@ -88,10 +92,10 @@
         }
         &-iframe {
             margin: 2rem auto;
-            width: 80%;
+            width: 90%;
             iframe {
-                width: 80%;
-                margin: 10%;
+                width: 100%;
+                margin: 0%;
             }
         }
     }
