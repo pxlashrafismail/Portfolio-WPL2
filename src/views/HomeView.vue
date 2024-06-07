@@ -22,7 +22,7 @@
           'Designing websites and logos are my favourite. <br>'+
           'By the way! I write clean code. ',
         homeImagePath: [
-          '../public/assets/images/dive-code.png'],
+          '/assets/images/dive-code.png'],
   
       }
     }
