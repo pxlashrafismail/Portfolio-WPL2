@@ -38,6 +38,16 @@
             margin-left: 20%;
         }
     }
+    &-netlify{
+        text-align: center;
+        &-link {
+            background-color: $color-secondary;
+            text-decoration: none;
+            padding: .5rem;
+            border-radius: .5rem;
+            color: $color-light;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
