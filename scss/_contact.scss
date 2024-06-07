@@ -1,9 +1,9 @@
-@use 'base' as *;
-.contact-container{
+@use "base" as *;
+.contact-container {
     width: 60%;
 
     margin: 10% auto;
-    &-info{
+    &-info {
         width: 90%;
         margin: 0 auto;
         &-tabel {
@@ -11,54 +11,88 @@
             margin-top: 2rem;
             margin-left: 10%;
             border-collapse: collapse;
-            th, td{
+            th,
+            td {
                 border: 1px solid black;
                 padding: 1rem;
             }
-            tr{
-                
-                
-                :nth-child(odd){
+            tr {
+                :nth-child(odd) {
                     width: 30%;
                     margin: 1rem;
                     padding: 1rem;
                 }
-                :nth-child(even){
+                :nth-child(even) {
                     width: 60%;
                     margin: 1rem;
                     padding: 1rem;
                 }
             }
         }
-
     }
-    &-iframe{
+    &-iframe {
         margin: 2rem auto;
         width: 80%;
-        iframe{
-            width: 40%;
-            margin-left: 30%;
+        iframe {
+            width: 60%;
+            margin-left: 20%;
         }
     }
 }
 
-@media screen and (max-width: 768px){
-    .contact-container{
+@media screen and (max-width: 768px) {
+    .contact-container {
         width: 80%;
-        &-info{
+        &-info {
             width: 100%;
             &-tabel {
                 width: 100%;
                 margin-left: 0;
             }
         }
-        &-iframe{
-            iframe{
+        &-iframe {
+            width: 80%;
+            iframe {
                 width: 80%;
                 margin-left: 10%;
             }
         }
     }
-
 }
 
+@media screen and (max-width: 576px) {
+    .contact-container {
+        &-info {
+            width: 90%;
+            margin: 0 auto;
+            &-tabel {
+                width: 80%;
+                margin: 2rem auto;
+                td {
+                    border: 1px solid black;
+                    padding: .5rem;
+                }
+                tr {
+                    :nth-child(odd) {
+                        width: 30%;
+                        margin: 0;
+                        padding: .5rem;
+                    }
+                    :nth-child(even) {
+                        width: 60%;
+                        margin: 0;
+                        padding: .5rem;
+                    }
+                }
+            }
+        }
+        &-iframe {
+            margin: 2rem auto;
+            width: 80%;
+            iframe {
+                width: 80%;
+                margin: 10%;
+            }
+        }
+    }
+}
