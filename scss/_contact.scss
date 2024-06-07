@@ -38,9 +38,10 @@
             margin-left: 20%;
         }
     }
-    &-netlify{
+    &-netlify, &-github{
         text-align: center;
-        &-link {
+        margin: 2rem;
+        &-link,&-link {
             background-color: $color-secondary;
             text-decoration: none;
             padding: .5rem;
