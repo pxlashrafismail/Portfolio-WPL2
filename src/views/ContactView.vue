@@ -34,6 +34,12 @@
             {{ netlify }}
             </a>
         </div >
+        <div class="contact-container-github">
+            <a class="contact-container-github-link" 
+            :href="githubLink">
+                {{ github }}
+            </a>
+        </div>
     </div>
 </template>
 
@@ -42,7 +48,9 @@
         data() {
             return {
                 netlify: 'NETLIFY',
-                netlifyLink: 'https://coruscating-marshmallow-7e8a2c.netlify.app'
+                netlifyLink: 'https://coruscating-marshmallow-7e8a2c.netlify.app',
+                github: 'GITHUB',
+                githubLink: 'https://github.com/pxlashrafismail/Portfolio-WPL2'
             }
         }
     }
