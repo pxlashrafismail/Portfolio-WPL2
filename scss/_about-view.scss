@@ -23,3 +23,30 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px){
+    .about-container{
+        @include flexLayout(column, center, center);
+        // background-color: $color-light;
+        &-header{
+            margin: 1rem auto;
+            &-lbl{
+                font-size: 1.5rem;
+                padding: .5rem;
+                }
+                
+                &-select{
+                font-size: 1.5rem;
+                padding: .5rem;
+                border-radius: .5rem;
+            }
+    
+        }
+        &-body{
+            &-content{
+            }
+        }
+    }
+    
+}
