@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="home-container" id="home">
       <div class="home-container-image" id="foto">
-        <img class="home-container-image-img" src='/public/assets/images/dive-code.png' alt="profile-foto" />
+        <img class="home-container-image-img" :src="homeImagePath" alt="profile-foto" />
       </div>
       <div class="home-container-content" id="intro-me">
         <h1 class="home-container-content-title" >{{introH1}}</h1>
@@ -22,7 +22,7 @@
           'Designing websites and logos are my favourite. <br>'+
           'By the way! I write clean code. ',
         homeImagePath: [
-          ],
+          '/assets/images/dive-code.png'],
   
       }
     }
