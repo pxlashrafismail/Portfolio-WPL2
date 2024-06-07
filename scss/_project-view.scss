@@ -23,12 +23,24 @@
 @media  screen and (max-width: 992px){
     .projects-container{
         &-header{
-            font-size: 1.5rem;
             &-label{
                 font-size: 1.5rem;
             }
             &-select{
                 font-size: 1.5rem;
+            }
+        }
+    }
+    
+}
+@media  screen and (max-width: 768px){
+    .projects-container{
+        &-header{
+            &-label{
+                font-size: 1.2rem;
+            }
+            &-select{
+                font-size: 1.2rem;
             }
         }
     }

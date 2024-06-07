@@ -48,3 +48,21 @@
     }
     
 }
+@media screen and (max-width: 768px) {
+    .home-container{
+        margin-top: 2rem;
+        &-image{
+            &-img{
+            }
+        }
+        &-content{
+            &-title{
+                font-size: 2rem;
+            }
+            &-description{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    
+}
